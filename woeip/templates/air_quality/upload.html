@@ -3,14 +3,15 @@
 {% block content %}
 <div class="grid-container large-offset-1 grid-padding-y">
   <div class="grid-y">
-    <div class="callout secondary large">
-      <h3>Drop your DusTrack and GPS files here</h3>
+    <div class="callout secondary large" style="min-height: 200px; white-space: pre;
+     border: 2px dashed grey; margin-left:5%; margin-right:5%;">
+      <h4 style="color: green" align="center">Step 1 <br> Drop your DusTrack and GPS files here</h4> <br> 
     </div>
   </div>
-  <div class="grid-x">
-    <p>or</p>
+  <div class="grid-x" style = "align="center"">
+    <p>Or</p>
   </div>
-  <div class="grid-x">
+  <div class="grid-x" style="fill: lightgray; border: 2px grey;" >
     <button type="button" class="button js-upload-documents">Find files on your computer</button>
   </div>
   <br> 
@@ -62,3 +63,6 @@
 <script src="{% static 'js/jquery-file-upload/jquery.fileupload-validate.js' %}"></script>
 <script src="{% static 'js/basic-upload.js' %}"></script>
 {% endblock%}
+
+
+
